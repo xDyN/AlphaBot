@@ -1,0 +1,50 @@
+{
+    "auth_service": "ptc",
+    "username": "ACCOUNT",
+    "password": "PASSWORD",
+    "location": "24.787466, 120.983666",
+
+    "step_diameter": 10,
+
+    "item_limit": {
+        "Pokeball": 100,
+        "Potion": 10,
+        "Super Potion": 20,
+        "Hyper Potion": 30,
+        "Max Potion": 30,
+        "Revive": 30,
+        "Razz Berry": 30
+    },
+
+    "farming_mode": {
+        "all_pokeball": {
+            "min": 20,
+            "max": 100
+        },
+        "all_potion": { 
+            "min": 10,
+            "max": 100
+        },
+        "all_revive": {
+            "min": 10,
+            "max": 100
+        }
+    },
+
+    "catch_time_every_run": 5,
+    "rare_first": true,
+
+    "daily_limit": {
+        "catch": 990,
+        "spin": 1990
+    },
+
+    "transfer_filter": {
+        "below_iv": 0.8,
+        "below_cp": 1200,
+        "logic": "or"
+    },
+
+    "catch_randomize_reticle_factor": 1.0,
+    "catch_randomize_spin_factor": 1.0
+}
